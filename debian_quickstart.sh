@@ -20,8 +20,9 @@ nltk.download('all')
 END
 pip install bs4
 pip install wolframalpha
-install pyaudio
+apt-get install pyaudio
 apt-get install git
+apt-get install libopencv-dev python-opencv
 
 echo "Downloading alan from github"
 git clone https://github.com/camtaylor/alan.git
