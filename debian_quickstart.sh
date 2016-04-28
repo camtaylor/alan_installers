@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
-# written by @github user gameslayer
+# contributed to by @github user gameslayer
+
 echo "Installing dependancies for Alan"
+apt-get install git
+apt-get install python-pip
 apt-get install festival
 apt-get install pocketsphinx-utils
+sudo apt-get install pocketsphinx-hmm-en-hub4wsj
 apt-get install libjack0 libjack-dev
 apt-get install portaudio19-dev
 apt-get install python-all-dev
